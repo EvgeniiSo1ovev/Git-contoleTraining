@@ -44,6 +44,12 @@ public class Main {
         notebook5.volumeHardDisc = 10000;
         notebook5.os = "Windows";
         notebook5.color = "Yellow";
+        NoteBook notebook7 = new NoteBook("MacBook", "Romashka", "M745646hb6756");
+        notebook5.price = 50000;
+        notebook5.volumeRAM = 32;
+        notebook5.volumeHardDisc = 1000;
+        notebook5.os = "MacOS";
+        notebook5.color = "Green";
         ProductList noteBookSet = new ProductList();
         noteBookSet.add(notebook1);
         noteBookSet.add(notebook2);
