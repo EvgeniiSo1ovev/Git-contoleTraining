@@ -38,12 +38,6 @@ public class Main {
         notebook5.volumeHardDisc = 1000;
         notebook5.os = "NoOS";
         notebook5.color = "Black";
-        NoteBook notebook6 = new NoteBook("Sony", "Superior", "S743n89hb6756");
-        notebook5.price = 99999;
-        notebook5.volumeRAM = 64;
-        notebook5.volumeHardDisc = 10000;
-        notebook5.os = "Windows";
-        notebook5.color = "Yellow";
         ProductList noteBookSet = new ProductList();
         noteBookSet.add(notebook1);
         noteBookSet.add(notebook2);
