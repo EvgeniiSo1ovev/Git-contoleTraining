@@ -62,6 +62,9 @@ public class Main {
         noteBookSet.add(notebook3);
         noteBookSet.add(notebook4);
         noteBookSet.add(notebook5);
+        noteBookSet.add(notebook6);
+        noteBookSet.add(notebook7);
+        noteBookSet.add(notebook8);
         System.out.println(noteBookSet.toString());
         System.out.println("Приветствую на виртуальном складе магазина техники");
         ProductList FiltredList = new ProductList(noteBookSet, setFilterParam());
